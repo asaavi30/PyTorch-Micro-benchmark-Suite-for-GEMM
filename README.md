@@ -39,9 +39,6 @@ torch pandas numpy matplotlib scikit-learn nvidia-ml-py3
 * TF32 allowed, `torch.compile=True`
 * Artifacts: `results.csv`, `heatmap.png`
 
-**Reference Plot:**
-![V1 Heatmap](./assets/v1_heatmap.png)
-
 ---
 
 ### V2 — Extended Size Sweep + Curves
@@ -58,11 +55,6 @@ torch pandas numpy matplotlib scikit-learn nvidia-ml-py3
 * `results.csv`
 * `heatmap.png`
 * `curves_fp32_vs_fp16.png`
-
-**Reference Plots:**
-
-* Heatmap (FP16, K=1024): ![V2 Heatmap](./assets/v2_heatmap.png)
-* FP32 vs FP16 Curves: ![V2 Curves](./assets/v2_curves.png)
 
 ---
 
@@ -81,11 +73,6 @@ torch pandas numpy matplotlib scikit-learn nvidia-ml-py3
 * `results_v3.csv`
 * `heatmap_v3.png`
 * `efficiency_v3.png`
-
-**Reference Plots:**
-
-* Heatmap (FP16, K=1024): ![V3 Heatmap](./assets/v3_heatmap.png)
-* Top Efficiency (TFLOPS/W): ![V3 Efficiency](./assets/v3_efficiency.png)
 
 ---
 
